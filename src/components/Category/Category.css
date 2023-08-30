@@ -1,0 +1,30 @@
+/* category column */
+.col-category {
+    @apply px-1 sm:px-6;
+    @apply font-semibold;
+}
+
+/* each cases */
+.category-rgpd {
+    @apply bg-light_blue text-blue;
+    @apply mr-2 px-4 py-2;
+    @apply rounded-full;
+}
+
+.category-home {
+    @apply bg-light_yellow text-yellow;
+    @apply mr-2 px-4 py-2;
+    @apply rounded-full;
+}
+
+.category-cyber {
+    @apply bg-light_red text-red;
+    @apply mr-2 px-4 py-2;
+    @apply rounded-full;
+}
+
+@media (max-width: 680px) {
+    .col-category {
+        font-size: 0.6rem;
+    }
+}

@@ -1,0 +1,5 @@
+footer {
+    @apply text-center mt-20 mb-6;
+    @apply font-body font-light;
+    font-size: 0.7em;
+}

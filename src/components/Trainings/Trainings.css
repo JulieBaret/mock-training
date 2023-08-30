@@ -1,0 +1,6 @@
+.table-content {
+    @apply relative overflow-x-auto rounded w-auto;
+    @apply shadow;
+    @apply cursor-default;
+}
+

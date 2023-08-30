@@ -1,0 +1,78 @@
+.table-bloc {
+    @apply inline-block min-w-full;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    @apply text-center;
+}
+
+/* head of the table */
+thead {
+    @apply text-white bg-orange;
+    font-size: 1rem;
+}
+
+/* proportion of each column */
+thead th:nth-child(1) {
+    width: 35%;
+}
+
+thead th:nth-child(2) {
+    width: 30%;
+}
+
+thead th:nth-child(3) {
+    width: 20%;
+}
+
+thead th:nth-child(4) {
+    width: 15%;
+}
+
+th {
+    @apply pl-6 py-3;
+}
+
+/* column headers */
+.head-title {
+    @apply pl-2 sm:pl-6 py-4;
+    @apply text-left;
+}
+
+.head-category {
+    @apply px-1 sm:px-6 py-4;
+}
+
+.head-status {
+    @apply px-1 sm:px-6 py-4;
+}
+
+.head-button {
+    @apply pr-2 sm:pr-6 py-4;
+}
+
+/* each instance on the table */
+.table-instance {
+    @apply hover:bg-grey text-black h-20 md:h-16;
+    font-size: 0.9rem;
+}
+
+/* title column */
+.col-title {
+    @apply pl-2 sm:pl-6;
+    @apply text-left;
+    @apply font-semibold;
+}
+
+@media (max-width: 680px) {
+    thead {
+        font-size: 0.8rem;
+    }
+
+    .table-instance {
+        font-size: 0.7rem;
+    }
+}

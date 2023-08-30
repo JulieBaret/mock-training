@@ -1,0 +1,38 @@
+.body-container {
+    @apply flex flex-col items-center justify-center;
+    @apply mb-10;
+    margin-top: 8rem;
+}
+
+.heading {
+    @apply font-body;
+    @apply text-black;
+    width: 81vw;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.highlight {
+    @apply text-orange;
+}
+
+.table-container {
+    @apply font-body;
+    @apply mt-2 md:mt-6;
+    width: 81vw;
+}
+
+@media (max-width: 680px) {
+    .heading {
+        width: 95vw;
+        font-size: 30px;
+    }
+
+    .table-container {
+        width: 95vw;
+    }
+
+    .body-container {
+        margin-top: 2.5rem;
+    }
+}
